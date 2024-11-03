@@ -1,0 +1,50 @@
+body {
+    background: white;
+  }
+  p {
+    color: black;
+  }
+  h1 {
+    font-weight: bold;
+  
+  }
+  h2{
+    text-align: center;
+  }
+  .hi{
+    text-align: center;
+    text-shadow: 2px 2px 5px pink;
+    font-family: sans-serif;
+    
+  }
+  /* Create three unequal columns that floats next to each other */
+  .column {
+    float: left;
+    padding: 10px;
+  }
+  
+  /* Left and right column */
+  .column.side {
+    width: 25%;
+  }
+  
+  /* Middle column */
+  .column.middle {
+    width: 50%;
+  }
+  
+  /* Clear floats after the columns */
+  .row::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column.side, .column.middle {
+      width: 100%;
+    }
+    .topnav {
+      overflow: hidden;
+      background-color: rgba(217, 135, 176, 0.68);
