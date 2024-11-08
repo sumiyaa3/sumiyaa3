@@ -1,0 +1,41 @@
+body {
+    background-color:aliceblue;
+  }
+  p {
+    color: black;
+  }
+  h1 {
+    font-weight: bold;
+  }
+  
+  .hi{
+    text-align: left;
+    color: darkmagenta;
+    border-style: ridge; border-left-color: darkslateblue;
+    
+  
+  }
+  #pfp{
+    width:250px;
+    height:200px;
+    position:absolute;
+    right: 8%;
+    top: 2%;
+  }
+  
+  
+  body {
+    background-color: pink;
+  }
+  
+  .hey{
+    
+      width: 750px;
+      border: 15px solid #874571;
+      padding: 50px;
+      margin: 20px;
+    
+    background-color:aliceblue;
+  
+    
+  }
