@@ -1,22 +1,56 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="final.css">
+    
   </head>
   <body>
-    <title>GamePlay</title>
-    <div class="hi">
-      <h2>Thomas Edison</h2>
-      <h2>Sumiya Akter</h2>
-      <h2>November 2024</h2>
-      <h2>Ghost Schools Project 4</h2>
-      <h2>Web Designs</h2>
-      <img id="pfp" src="Screenshot-2024-10-07-130127.png">
+     <title>GamePlay</title>
+        <div class="hi">
+          <h2>Thomas Edison</h2>
+          <h2>Sumiya Akter</h2>
+          <h2>November 2024</h2>
+          <h2>Ghost Schools Project 4</h2>
+          <h2>Web Designs</h2>
+          <img id="pfp" src="avatar.png">
+        </div>
+    <div class="hey"></div>
+          <div class="no">
+            <h2>Welcome to spot the difference!!!!! (*≧ω≦*)</h2>
+        </div>
+
+    <div class="waveinstruct" id="instructions"> 
+      <h3 class="instructionstitle">How to play!!</h3>
+
+      <p> - There are 3 levels! Easy, Medium, and Hard. </p>
+      <p> - Use your mouse and hover over the images. </p>
+      <p> - Spot the difference between these photos!</p>
+      <p> - Try your best and have fun!  </p>
     </div>
-   <div class="hey">
-     <h2>hi</h2>
+    <div class="waveeasy" id="easylevel"> 
+      <h3> Easy </h3>
+      <p>You have 10 seconds to view the images. Remove your mouse from the image once the time is up.</p>
+      <div class="easyimages">
+        <img class="easyimages" src="easybefore.png" alt="easy level image"
+             onmouseover="this.src='easyafter.png';"
+             onmouseout="this.src='easybefore.png';" width="600">
+      </div>
+      
     </div>
-    
-    
+    <div class="wavemedium" id="mediumlevel"> 
+      <h3> Medium </h3>
+      <p> You have 5 seconds to view the images. Remove your mouse from the image once the time is up.</p>
+      <img class="mediumimages" src="medium1.png" 
+           onmouseover="this.src='medium2.png';"
+           onmouseout="this.src='medium1.png';" width="900">
+    </div>
+    <div class="wavehard" id="hardlevel"> 
+      <h3>Hard</h3>
+      <p> You have 3 seconds to view the images. Remove your mouse from the image once the time is up. </p>
+      <img class="hardimages" src="hard1.png" 
+           onmouseover="this.src='hard2.png';"
+           onmouseout="this.src='hard1.png';" width="900">
+    </div>
+
   </body>
 </html>
