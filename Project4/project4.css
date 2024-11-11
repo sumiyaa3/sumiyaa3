@@ -13,8 +13,7 @@ body {
     text-align: center;
     color: whitesmoke
   }
-  .introtogame {
-  }
+  
   .no{
     text-align: center;
     color:darkmagenta;
@@ -66,7 +65,7 @@ body {
   
     text-align: center;
   
-    font-size: 0.8em;
+    font-size: 0.8px;
   
     height: 50px;
   
